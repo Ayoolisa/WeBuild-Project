@@ -337,7 +337,7 @@ section {
     top: 0; left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(30deg, var(--white), transparent);
+    background: linear-gradient(60deg, var(--white), transparent);
 }
 
 .slide .content {
@@ -368,6 +368,10 @@ section {
     background: var(--white);
 }
 
+.swiper-button-prev {
+    right: 7rem;
+}
+
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
     background: var(--yellow);
@@ -378,9 +382,7 @@ section {
     font-size: 2rem;
     color: var(--black);
 }
-.swiper-button-prev {
-    right: 7rem;
-}
+
 
 
 
@@ -486,6 +488,18 @@ section {
 
     .header .login-form {
         width: 90%;
+    }
+
+    .home .slide {
+        justify-content: center;
+    }
+
+    .slide .content {
+        text-align: center;
+    }
+
+    .content h3 {
+        font-size: 3rem;
     }
 
 }
