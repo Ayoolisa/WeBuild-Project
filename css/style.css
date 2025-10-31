@@ -306,7 +306,7 @@ section {
     line-height: 5rem;
     font-size: 2rem;
     background: var(--light-bg);
-    color: var(--black);
+    color: var(--white);
     cursor: pointer;
     text-align: center;
     margin-left: .3rem;
@@ -337,7 +337,7 @@ section {
     top: 0; left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(60deg, var(--white), transparent);
+    background: linear-gradient(60deg, var(--black), transparent);
 }
 
 .slide .content {
@@ -348,11 +348,13 @@ section {
 .content h3 {
     font-size: 6rem;
     text-transform: capitalize;
+    color: var(--white);
 }
 
 .content p {
     font-size: 1.7rem;
     padding: 1rem 0;
+    color: var(--white);
     line-height: 1.5;
 }
 
